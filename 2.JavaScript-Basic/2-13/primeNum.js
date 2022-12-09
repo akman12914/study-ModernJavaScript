@@ -11,12 +11,13 @@
 
 // }
 
-let n = 5;
-let i=2;
+let n = 10;
+let i=1;
 let j=2;
 // j=2;
 nextPrime : while(i<=n){
 
+    i++;
     j=2;
 
     while(j<i){
@@ -26,6 +27,6 @@ nextPrime : while(i<=n){
     }
 
     console.log(i);
-    i++;
+    
     
 }

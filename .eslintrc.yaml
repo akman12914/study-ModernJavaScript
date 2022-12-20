@@ -1,0 +1,8 @@
+        env:
+        browser: true
+    rules:
+        # Override default settings
+        eqeqeq: warn
+        strict: off
+    settings:
+    sharedData: "Hello"

@@ -12,5 +12,8 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+    },
+    "settings": {
+        "sharedData": "Hello"
     }
 }

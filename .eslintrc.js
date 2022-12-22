@@ -15,5 +15,6 @@ module.exports = {
     },
     "settings": {
         "sharedData": "Hello"
-    }
+    },
+    "root":true
 }

@@ -5,6 +5,7 @@
  * @param {number} n 곱할 횟수, 반드시 자연수여야 함
  * @return {number} x의 n 거듭제곱을 반환함
  */
+
 let number;
 
  function pow(x, n) {

@@ -2,7 +2,7 @@ let user = prompt("who's there");
 
 if(user=="Admin"){
 
-    password = prompt("Password?")
+    let password = prompt("Password?")
     
     if(password == "TheMaster"){
         alert("Welcome!");

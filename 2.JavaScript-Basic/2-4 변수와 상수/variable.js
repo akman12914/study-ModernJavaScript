@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 //변수 가지고 놀기
 let admin;
 let userName;

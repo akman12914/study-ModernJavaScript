@@ -4,7 +4,13 @@ let user = {
   };
   
   user.sayHi = function() {
-    alert("안녕하세요!");
+    console.log("안녕하세요!");
   };
   
+  function sayBye() {
+    console.log("안녕히가세요!");
+  }
+
+  user.sayBye = sayBye;
   user.sayHi(); // 안녕하세요!
+  user.sayBye(); // 안녕히가세요!

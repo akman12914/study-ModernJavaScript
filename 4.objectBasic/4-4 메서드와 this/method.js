@@ -2,7 +2,7 @@ let user = {
     name: "John",
     age: 30,
     sayName(){
-      console.log(user.name);
+      console.log(this.name);
     }
   };
   

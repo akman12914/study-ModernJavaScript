@@ -3,7 +3,10 @@ let user = {
     age: 30,
     sayName(){
       console.log(this.name);
-    }
+    },
+    sayAge(){
+      console.log(user.age);
+    },
   };
   
   user.sayHi = function() {
@@ -18,3 +21,4 @@ let user = {
   user.sayHi(); // 안녕하세요!
   user.sayBye(); // 안녕히가세요!
   user.sayName();
+  user.sayAge();

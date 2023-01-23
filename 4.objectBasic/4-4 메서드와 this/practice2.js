@@ -1,18 +1,15 @@
-let calculator = {
-    sum() {
-      return this.a + this.b;
-    },
-  
-    mul() {
-      return this.a * this.b;
-    },
-  
-    read() {
-      this.a = +prompt('첫 번째 값:', 0);
-      this.b = +prompt('두 번째 값:', 0);
-    }
-  };
-  
-  calculator.read();
-  alert( calculator.sum() );
-  alert( calculator.mul() );
+const readline = require("readline");
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+rl.on("line", (line) =>{
+    console.log("input: ", line);
+    rl.close();
+});
+
+rl.on('close', ()=>{
+    process.exit();
+})

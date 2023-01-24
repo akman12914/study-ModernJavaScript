@@ -5,11 +5,23 @@ const rl = readline.createInterface({
     output: process.stdout,
 });
 
-rl.on("line", (line) =>{
-    console.log("input: ", line);
-    rl.close();
-});
+let calculator = {
+    read(){
+        rl.on("line", (line) =>{
+           let input = line.split(' ').map(el=>Number(el));
+           this.a = input[0];
+           this.b = input[1];
+           console.log(calculator.sum());
+           console.log(calculator.mul());
+           rl.close();
+        }).on('close', ()=>process.exit);
+    },
+    sum(){
+        return this.a+this.b;
+    },
+    mul(){
+        return this.a*this.b;
+    }
+}
 
-rl.on('close', ()=>{
-    process.exit();
-})
+calculator.read();

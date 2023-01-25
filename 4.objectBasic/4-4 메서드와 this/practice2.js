@@ -1,20 +1,11 @@
-const readline = require("readline");
+const prompt = require("prompt-sync")();
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
+
 
 let calculator = {
     read(){
-        rl.on("line", (line) =>{
-           let input = line.split(' ').map(el=>Number(el));
-           this.a = input[0];
-           this.b = input[1];
-           console.log(calculator.sum());
-           console.log(calculator.mul());
-           rl.close();
-        }).on('close', ()=>process.exit);
+        this.a = +prompt("첫 번째 수를 입력하세요: "); ///숫자 형변환
+        this.b = +prompt("두 번째 수를 입력하세요: ");
     },
     sum(){
         return this.a+this.b;
@@ -24,4 +15,8 @@ let calculator = {
     }
 }
 
+
+
 calculator.read();
+console.log(calculator.sum());
+console.log(calculator.mul());

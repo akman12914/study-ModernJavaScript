@@ -8,6 +8,12 @@ function User(name){
     
 }
     
+let admin = new function() {
+    this.name = "John";
+    this.isAdmin = true;
+  
+  };
+
 let user = new User("민");
 
 console.log(user.name);

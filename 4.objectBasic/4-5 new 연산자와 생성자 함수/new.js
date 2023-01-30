@@ -17,3 +17,4 @@ let admin = new function() {
 let user = new User("민");
 
 console.log(user.name);
+console.log(admin);

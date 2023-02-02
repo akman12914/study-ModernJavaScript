@@ -5,3 +5,9 @@ function Habit() {
 }
 
 console.log(new Habit().name);
+
+//괄호 생략 가능. '좋은 스타일'은 아니다.
+
+let habit = new Habit;
+
+console.log(habit);

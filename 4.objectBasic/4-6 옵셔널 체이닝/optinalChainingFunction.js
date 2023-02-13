@@ -8,5 +8,7 @@ let user1 = {
 
 let user2 = {};
 
-console.log(user1.printHi?.());
-console.log(user2.printHi?.());
+let key = "printHi";
+
+user1?.[key]();//안뇽?
+user2?.[key]();//에러발생

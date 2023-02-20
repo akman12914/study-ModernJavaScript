@@ -23,4 +23,5 @@ console.log( pw === tempPw );
 console.log( Symbol.keyFor(pw) );
 console.log( Symbol.keyFor(tempPw) );
 console.log( Symbol.keyFor(id) );
+console.log( user[Symbol.hasInstance]);
 console.log( id.description );

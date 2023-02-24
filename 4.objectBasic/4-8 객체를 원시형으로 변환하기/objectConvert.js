@@ -20,7 +20,9 @@ console.log(anotherObj); //string
 let num =  Number(obj); 
 
 let n = +obj;
+let greater = n > num; //당시 숫자형으로 변환
 
 console.log(n); //숫자 이외의 글자가 들어가 있는 문자열을 숫자형으로 변환하려고 하면, 그 결과는 NaN
 
 console.log(num); //숫자 이외의 글자가 들어가 있는 문자열을 숫자형으로 변환하려고 하면, 그 결과는 NaN
+console.log(greater);

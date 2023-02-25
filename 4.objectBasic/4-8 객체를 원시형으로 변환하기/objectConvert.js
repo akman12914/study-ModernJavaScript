@@ -26,3 +26,10 @@ console.log(n); //숫자 이외의 글자가 들어가 있는 문자열을 숫�
 
 console.log(num); //숫자 이외의 글자가 들어가 있는 문자열을 숫자형으로 변환하려고 하면, 그 결과는 NaN
 console.log(greater);
+
+//to default
+
+let total = obj + anotherObj;
+console.log(total);
+
+if (obj ==1) {console.log(obj)}

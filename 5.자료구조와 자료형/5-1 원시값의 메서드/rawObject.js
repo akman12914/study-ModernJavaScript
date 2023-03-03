@@ -1,8 +1,10 @@
-let john = {
-    name: "John",
-    sayHi: function() {
-      console.log("친구야 반갑다!");
-    }
-  };
-  
-  john.sayHi(); // 친구야 반갑다
+//원시 래퍼 객체를 만드는 메서드들
+
+let str = "Hello";
+
+console.log( str.toUpperCase() ); 
+
+let n = 1.23423423432;
+
+console.log( n.toFixed(1));
+

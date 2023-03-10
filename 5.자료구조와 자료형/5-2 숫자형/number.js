@@ -13,6 +13,12 @@ console.log( hexadecimal.toString(16) );
 console.log( binary.toString(2) );
 console.log( 123423432423432..toString(36) );
 
+//어림수 구하기 
+
+///1. 곱하기와 나누기
+let num = 1.282943328;
+console.log(Math.trunc( num * 100 ) / 100 );
+
 
 
 

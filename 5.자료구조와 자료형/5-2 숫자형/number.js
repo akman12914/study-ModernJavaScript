@@ -16,8 +16,16 @@ console.log( 123423432423432..toString(36) );
 //어림수 구하기 
 
 ///1. 곱하기와 나누기
-let num = 1.282943328;
-console.log(Math.trunc( num * 100 ) / 100 );
+let num1 = 1.282943328;
+console.log(Math.trunc( num1 * 100 ) / 100 );
+
+//2.foFixed(n)
+let num2 = 12.4352;
+console.log( num2.toFixed(9) ); 
+console.log( typeof num2.toFixed(9) );
+
+
+
 
 
 

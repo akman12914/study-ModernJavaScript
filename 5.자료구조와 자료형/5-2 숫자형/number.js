@@ -24,8 +24,8 @@ let num2 = 12.4352;
 console.log( num2.toFixed(9) ); 
 console.log( typeof num2.toFixed(9) );
 
-
-
+//부정확한 계산
+console.log( 99999999999999999 ); //정밀도 손실
 
 
 

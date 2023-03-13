@@ -27,8 +27,12 @@ console.log( typeof num2.toFixed(9) );
 //부정확한 계산
 console.log( 99999999999999999 ); //정밀도 손실
 
-
-
+//isNaN과 isFinite
+console.log( isNaN(NaN) );
+console.log( isNaN("str") );
+console.log( NaN === NaN );
+console.log( isFinite("15") );
+console.log(  Object.is(NaN, NaN) ); //NaN을 대상으로 비교
 
 
 

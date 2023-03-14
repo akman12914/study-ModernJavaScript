@@ -28,11 +28,21 @@ console.log( typeof num2.toFixed(9) );
 console.log( 99999999999999999 ); //정밀도 손실
 
 //isNaN과 isFinite
+console.log( "-------------- isNaN과 isFinite-------------- " );
 console.log( isNaN(NaN) );
 console.log( isNaN("str") );
 console.log( NaN === NaN );
 console.log( isFinite("15") );
-console.log(  Object.is(NaN, NaN) ); //NaN을 대상으로 비교
+console.log(  Object.is(NaN, NaN) ); //NaN을 대상으로 비교 시 상대적으로 정확함
+
+//기타 수학함수
+console.log( "-------------- 기타 수학함수-------------- " );
+console.log( Math.random() );
+console.log( Math.trunc( Math.random() * 100) );
+console.log( Math.max(10, 20, 30, -0) );
+console.log( Math.min(30, 40, -3, 22) );
+console.log( Math.pow(8, 2) );
+
 
 
 

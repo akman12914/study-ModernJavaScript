@@ -1,8 +1,10 @@
 function random(min, max) {
-    console.log(Math.random);
-    console.log(min.Math.random);
-    console.log(max.Math.random);
+    return (min + Math.random() * ( max - min ));
 
 }
 
 console.log( random(1, 5) );
+
+// Math.random() 함수에 2를 곱하면 반환되는 값의 범위가 0 이상 2 미만으로 확장됩니다. 즉, 0에서 2 사이의 무작위 부동 소수점 숫자를 반환할 수 있게 됩니다.
+// Math.random() 함수가 내부적으로 0 이상 1 미만의 값을 생성하고, 이를 곱한 후 반환하기 때문입니다. 
+// 따라서 인수를 곱하면 내부적으로 생성된 값을 해당 인수만큼 곱한 후 반환하므로, 반환되는 값의 범위도 인수만큼 확장되는 것입니다.

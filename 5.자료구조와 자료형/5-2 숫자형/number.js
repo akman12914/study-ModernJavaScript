@@ -8,10 +8,12 @@ let hexadecimal = 0xff; // 255의 16진수
 let binary = 0b11111111;// 255의 2진수
 let oct = 0o377; //255 8진수
 
+
+
 //toString(base)
-console.log( hexadecimal.toString(16) );
+console.log( '2진수' + hexadecimal.toString(16) );
 console.log( binary.toString(2) );
-console.log( 123423432423432..toString(36) );
+console.log( '36진수:' + 1234..toString(36) ); //1234/36 ->몫 34, 나머지 10 :a , 34/36 ->몫 0, 나머지 35 : y -> ya
 
 //어림수 구하기 
 
@@ -42,6 +44,8 @@ console.log( Math.trunc( Math.random() * 100) );
 console.log( Math.max(10, 20, 30, -0) );
 console.log( Math.min(30, 40, -3, 22) );
 console.log( Math.pow(8, 2) );
+
+
 
 
 

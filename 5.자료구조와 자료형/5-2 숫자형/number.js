@@ -23,7 +23,9 @@ console.log(Math.trunc( num1 * 100 ) / 100 );
 
 //2.foFixed(n)
 let num2 = 12.4352;
+console.log("-------------- toFixed(n)-------------- ")
 console.log( num2.toFixed(9) ); 
+console.log( +num2.toFixed(9) ); 
 console.log( typeof num2.toFixed(9) );
 
 //부정확한 계산

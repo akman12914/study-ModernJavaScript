@@ -29,7 +29,11 @@ console.log( +num2.toFixed(9) );
 console.log( typeof num2.toFixed(9) );
 
 //부정확한 계산
+console.log("-------------- 부정확한 계산 -------------- ")
 console.log( 99999999999999999 ); //정밀도 손실
+console.log(0.2 + 0.1);
+let sum = 0.2 + 0.1;
+console.log(sum.toFixed(2));
 
 //isNaN과 isFinite
 console.log( "-------------- isNaN과 isFinite-------------- " );

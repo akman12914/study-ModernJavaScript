@@ -34,6 +34,8 @@ console.log( 99999999999999999 ); //정밀도 손실
 console.log(0.2 + 0.1);
 let sum = 0.2 + 0.1;
 console.log(sum.toFixed(2));
+console.log( 0.6 + 0.33 );
+console.log( (0.6 + 0.33).toFixed(2) );
 
 //isNaN과 isFinite
 console.log( "-------------- isNaN과 isFinite-------------- " );

@@ -24,3 +24,28 @@ const day1 = birthday.getDay();
 console.log(day1);
 // Expected output: 2
 ```
+
+### Date.prototype.getTime()
+
+표준시에 따라 지정된 날짜의 시간에 해당하는 숫자 값을 반환
+
+이 메서드를 사용하면 다른 Date 객체에 날짜와 시간을 지정할 수 있습니다. 이 메소드는 기능적으로 valueOf() 메소드와 동일합니다.
+
+
+```js
+dateObj.getTime();
+```
+
+#### Return value
+1970 년 1 월 1 일 00:00:00 UTC와 주어진 날짜 사이의 경과 시간 (밀리 초 1/1000)을 나타내는 숫자
+
+#### Examples
+날짜 복사에 getTime () 사용
+
+동일한 시간 값으로 날짜 객체를 생성
+
+```js
+// 월은 0부터 시작하여 생일은 1995 년 1 월 10 일이됩니다.
+var birthday = new Date(1994, 12, 10);
+var copy = new Date();
+copy.setTime(birthday.getTime());
